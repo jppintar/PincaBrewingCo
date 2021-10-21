@@ -1,0 +1,133 @@
+.sum_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("../img/lutz-wernitz-pcW5bR7gSJ4-unsplash.jpg");
+    font-family: 'IM Fell English SC', serif;
+}
+
+.sum_sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    margin: auto;
+}
+
+.sum_sombra hr {
+    border-top: 1px solid #fff;
+}
+
+.sum_sombra h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+.sum_sombra p {
+    font-size: 4vw;
+    margin-bottom: 10px;
+}
+
+
+
+.sum_cont_banner_nosotros{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("../img/elevate-wmsDAIEtPfo-unsplash.jpg");
+    font-family: 'IM Fell English SC', serif;
+}
+
+.sum_sombra_nosotros{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    margin: auto;
+}
+
+.sum_sombra_nosotros h1 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+}
+
+
+.sum_cont_banner_estilos{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("../img/jon-parry-C8eSYwQkwHw-unsplash.jpg");
+    font-family: 'IM Fell English SC', serif;
+}
+
+.sum_cont_banner_estilos_texto{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+    margin: auto;
+}
+
+.sum_sombra_estilos_titulo h1 {
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+.sum_sombra_estilos_parrafo p {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+
+.sum_cont_banner_proceso{
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("../img/elevate-5sAzXev5-jA-unsplash.jpg");
+    font-family: 'IM Fell English SC', serif;
+}
+
+
+.sum_cont_banner_contacto{
+    height: 79.6vh;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("../img/meritt-thomas-2UsNF4Az-Ko-unsplash.jpg");
+    font-family: 'IM Fell English SC', serif;
+}
+.sum_sombra_contacto{
+    background-color: rgba(0, 0, 0, .6);
+    margin: auto;
+    width: 80%;
+    color: ivory;
+    padding: 20px;
+}
