@@ -1,0 +1,84 @@
+
+.Contacto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 20px;
+    align-items:center;
+}
+
+.contenedor {
+    border-radius: 2px;
+    width: 800px;
+}
+
+#formulario {
+    padding: 30px 20px;
+}
+
+.form-control {    
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position:unset;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font:weight 200px
+}
+
+.form-control input {
+    border: none;
+    background-color:white;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 6px;
+    width: 100%;    
+}
+.form-control, input:focus {
+    outline: none;
+}
+
+.form-control.ok input {
+    border: 0.1px solid;
+    border-color: greenyellow;
+}
+.form-control.falla input {
+    border: 0.1px solid;
+    border-color: red;
+}
+
+#formulario button {
+    background: grey;
+    border:1px solid grey;
+    border-radius: 2px;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.form-control p {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+}
+
+.form-control-mensaje {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+    height: 1000px;
+}
+
+.form-control.falla p {
+    visibility: visible;
+    color: red;
+}
